@@ -1,0 +1,162 @@
+#about .items {
+    display: block;
+    padding: 1rem;
+}
+
+#about .items .item {
+    display: flex;
+    text-align: left;
+}
+
+/* Icon Positioning */
+#about .items .item i {
+    margin-right: 1.3rem;
+    align-self: center;
+    margin-bottom: 0;
+}
+
+/* smart phones */
+@media(max-width: 615px) {
+    #navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar .logo {
+        margin-bottom: .5rem;
+        text-align: center;
+    }
+
+    #navbar ul {
+        padding: .5rem;
+    };
+
+    #showcase .showcase-content {
+        top: 110px;
+        margin-top: -2rem;
+    }
+
+    #who {
+        display: block;
+    }
+
+    #who .who-img {
+        display: none;
+    }
+    
+    #clients .items img {
+        width: 80%;
+    }
+
+    #clients .items div:last-child {
+        display: none;
+    }
+
+    #contact {
+        flex-direction: column;
+    }
+    
+    #contact .map {
+        height: 200px;
+        border-top: 4px solid #333;
+    }
+}
+
+@media(max-height: 568px) {
+    .l-heading {
+        font-size: 3rem;
+    }
+    .lead {
+        font-size: 1rem;
+    }
+}
+
+.l-heading {
+    font-size: 2.8rem;
+}
+
+.lead {
+    font-size: 1.2rem;
+}
+
+.who-text p {
+    padding: 0;
+    text-align: center;
+}
+
+.who-text h2,
+.who-text h3 {
+    text-align: center;
+}
+
+.who-text ul li {
+    text-align: center;
+}
+
+@media(max-width: 449px) {
+    #navbar ul li a {
+        font-size: 1rem;
+        padding: .5rem;
+        margin: 0 .15rem;
+    }
+
+    .l-heading {
+        font-size: 2rem;
+    }
+    .lead {
+        font-size: 1rem;
+    }
+
+    .items {
+        padding: .1rem;
+    }
+
+    .items .item {
+        padding: 0;
+    }
+    .container {
+        padding: 0;
+    }
+
+    .who-text {
+        padding: 1rem;
+    }
+
+    .who-text p {
+        padding: 0;
+        text-align: center;
+    }
+
+    .who-text h2 {
+        text-align: center;
+    }
+
+    #main-footer {
+        padding: .5rem;
+    }
+
+    #main-footer .container p {
+        font-size: .75rem;
+    }
+
+}
+
+
+@media(max-width:380px) {
+    #navbar ul li a {
+        font-size: 1rem;
+        padding: .25rem;
+        margin: 0 .15rem;
+    }
+
+}
+
+
+@media(max-width:321px) {
+    #navbar ul li a {
+        font-size: .8rem;
+        padding: .4rem;
+        margin: 0 .15rem;
+    }
+
+}
